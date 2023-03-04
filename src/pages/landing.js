@@ -45,7 +45,7 @@ function Landing() {
         ></ParallaxLayer>
 
         <ParallaxLayer
-          sticky={{ start: 0.9, end: 4.5 }}
+          sticky={{ start: 0.9, end: 4.8 }}
           style={{ textAlign: 'center' }}
         >
           <img src={astranaut} />
@@ -56,7 +56,7 @@ function Landing() {
           speed={0.05}
           onClick={() => ref.current.scrollTo(3)}
         >
-          <h2>Taking Off to MARS!</h2>
+          <h2>Taking-off to MARS!</h2>
         </ParallaxLayer>
 
         <ParallaxLayer
