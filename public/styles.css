@@ -16,7 +16,7 @@ body{
   --gradient-text: linear-gradient(89.97deg, #d6cd80 1.84%, #d21c1c 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
   
-  --color-bg: #040C18;
+  --color-bg: #222222;
   --color-footer : #031B34;
   --color-blog: #042c54;
   --color-text: #81AFDD;
@@ -422,3 +422,55 @@ body{
       margin: 4rem 2rem;
     }  
   }
+
+  /* Login Page */
+
+  .login-nav{
+    margin-top: 25px;
+    margin-left: 65px;
+  }
+  .Logo{
+    height: 110px;
+    margin-top: -12px;
+  }
+
+  .ver-line{
+    display: flex;
+  }
+  .vert-line{
+    height: 760px;
+    border-left: 2px solid white;
+    width: 80%;
+  }
+  .loginPlanet{
+    height: 800px;
+    margin-top: -3%;
+  }
+  .form-cont{
+    margin:10% 25% ;
+    width: 400px;
+  }
+
+.credentials{
+  background-color: white;
+    color: #4F555A !important;
+    border-radius: 5px;
+    margin: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Mic Button */
+
+.chatbot-mic {
+    color: white;
+    background-color: #d21c1c;
+    width: 28%;
+    height: 55vh;
+    border-radius: 50%;
+    margin-left: 34%;
+    /* margin-right: auto; */
+    margin-top: 10%;
+    cursor: pointer;
+}

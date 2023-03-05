@@ -4,7 +4,7 @@ import React,{useRef, useEffect} from "react";
 import { useState } from "react";
 import { Link, useNavigate } from 'react-router-dom';
 import LoginPlanet from "../Images/LoginPlanet.png"
-import Login from '../Images/Login.png';
+import Login from '../Images/Login.png'
 import Logo from "../Images/logo.png";
 
 

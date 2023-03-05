@@ -1,7 +1,7 @@
-.App {
+/* .App {
     text-align: center;
   }
-  
+   */
   .App-logo {
     height: 40vmin;
     pointer-events: none;
@@ -48,5 +48,5 @@
     z-index: 1;
     letter-spacing: 2px;
     font-weight: 600;
-
+    text-align: center;
   }
