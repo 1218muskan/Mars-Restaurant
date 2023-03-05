@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import MarsOasis from '../Images/MarsOasis.gif'
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
+import { FlipCard } from "react-flipme";
 
 function Home() {
     return ( 

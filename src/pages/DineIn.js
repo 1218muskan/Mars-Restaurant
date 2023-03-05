@@ -1,12 +1,15 @@
-import { Navigate } from "react-router";
+import { Link, useNavigate } from 'react-router-dom';
 
 
 function DineIn() {
-    
+    const navigate = useNavigate();
+    const handleMicClick = (e) => {
+        navigate('/login');
+    }
 
     return ( 
         <>
-        <button class="chatbot-mic" onClick={()=> {Navigate('/login')}}><i class="fa-solid fa-microphone"></i></button>
+        <button class="chatbot-mic" onClick={handleMicClick}><i class="fa-solid fa-microphone"></i></button>
         </>
      );
 }
