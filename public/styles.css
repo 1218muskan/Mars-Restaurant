@@ -462,6 +462,11 @@ body{
 }
 
 /* MENU on home page */
+.menu-cont {
+    display: flex;
+    flex-direction: row;
+}
+
 .card-main {
     /* margin: 3rem 3rem 0 3rem; */
     width: 418px !important;
@@ -495,13 +500,42 @@ body{
     color: #212121;
   }
 
-  .cardFront:nth-child(1){
-    background-image: url(./Images/Frame.png);
-  }
-
-  .cardFront:nth-child(2){
-    background-image: url(./Images/Frame.png);
-  }
+  .cardFront:nth-child(1){background-image: url('cardimages/image1.png');}
+  .cardFront:nth-child(2){background-image: url('cardimages/image2.png');}
+  .cardFront:nth-child(3){background-image: url('cardimages/image3.png');}
+  .cardFront:nth-child(4){background-image: url('cardimages/image4.png');}
+  .cardFront:nth-child(5){background-image: url('cardimages/image5.png');}
+  .cardFront:nth-child(6){background-image: url('cardimages/image6.png');}
+  .cardFront:nth-child(7){background-image: url('cardimages/image7.png');}
+  .cardFront:nth-child(8){background-image: url('cardimages/image8.png');}
+  .cardFront:nth-child(9){background-image: url('cardimages/image9.png');}
+  .cardFront:nth-child(10){background-image: url('cardimages/image10.png');}
+  .cardFront:nth-child(11){background-image: url('cardimages/image11.png');}
+  .cardFront:nth-child(12){background-image: url('cardimages/image12.png');}
+  .cardFront:nth-child(13){background-image: url('cardimages/image13.png');}
+  .cardFront:nth-child(14){background-image: url('cardimages/image14.png');}
+  .cardFront:nth-child(15){background-image: url('cardimages/image15.png');}
+  .cardFront:nth-child(16){background-image: url('cardimages/image16.png');}
+  .cardFront:nth-child(17){background-image: url('cardimages/image17.png');}
+  .cardFront:nth-child(18){background-image: url('cardimages/image18.png');}
+  .cardFront:nth-child(19){background-image: url('cardimages/image19.png');}
+  .cardFront:nth-child(20){background-image: url('cardimages/image20.png');}
+  .cardFront:nth-child(21){background-image: url('cardimages/image21.png');}
+  .cardFront:nth-child(22){background-image: url('cardimages/image22.png');}
+  .cardFront:nth-child(23){background-image: url('cardimages/image23.png');}
+  .cardFront:nth-child(24){background-image: url('cardimages/image24.png');}
+  .cardFront:nth-child(25){background-image: url('cardimages/image25.png');}
+  .cardFront:nth-child(26){background-image: url('cardimages/image26.png');}
+  .cardFront:nth-child(27){background-image: url('cardimages/image27.png');}
+  .cardFront:nth-child(28){background-image: url('cardimages/image28.png');}
+  .cardFront:nth-child(29){background-image: url('cardimages/image29.png');}
+  .cardFront:nth-child(30){background-image: url('cardimages/image30.png');}
+  .cardFront:nth-child(31){background-image: url('cardimages/image31.png');}
+  .cardFront:nth-child(32){background-image: url('cardimages/image32.png');}
+  .cardFront:nth-child(33){background-image: url('cardimages/image33.png');}
+  .cardFront:nth-child(34){background-image: url('cardimages/image34.png');}
+  .cardFront:nth-child(35){background-image: url('cardimages/image35.png');}
+  .cardFront:nth-child(36){background-image: url('cardimages/image36.png');}
 
 /* Mic Button */
 

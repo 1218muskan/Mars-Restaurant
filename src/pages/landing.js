@@ -2,25 +2,22 @@ import { useRef } from 'react';
 import earth from '../Images/earth.png';
 import mars from '../Images/mars.png'
 import mars2 from '../Images/mars2.png'
+import Button from "@mui/material/Button";
 import astranaut from '../Images/astranaut.png'
 import "./landing.css";
+import { Link, useNavigate } from 'react-router-dom';
+
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
 
 function Landing() {
+  const navigate = useNavigate();
   const ref = useRef();
 
   return (
     <div>
       <Parallax pages={4} ref={ref}>
-        {/* <ParallaxLayer speed={1}>
-            <h2>Welcome to my website</h2>
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={1} speed={0.5}>
-            <h2>Web development is fun!</h2>
-        </ParallaxLayer> */}
 
         <ParallaxLayer
           offset={0}
@@ -30,7 +27,7 @@ function Landing() {
             backgroundImage: `url(${earth})`,
             backgroundSize: 'contain',
             opacity: '0.8',
-          }}
+          }} 
         />
 
         <ParallaxLayer
@@ -45,8 +42,8 @@ function Landing() {
         ></ParallaxLayer>
 
         <ParallaxLayer
-          sticky={{ start: 0.9, end: 4.8 }}
-          style={{ textAlign: 'center' }}
+          sticky={{ start: 0.9, end: 5.5 }}
+          style={{ textAlign: 'center'}}
         >
           <img src={astranaut} />
         </ParallaxLayer>
@@ -65,8 +62,29 @@ function Landing() {
           onClick={() => ref.current.scrollTo(0)}
         >
           <h2>WELCOME TO MARS</h2>
+
+          
+          
         </ParallaxLayer>
+
+        
+
       </Parallax>
+
+      <div style={{textAlign: "center", position: "absolute", bottom: "25vh", left: "25%"}} class="dinein-delivery-cont">
+          <a href="/dinein"><Button  variant="contained"
+          align="center"
+          color="secondary"
+          sx={{ marginTop: "20px" ,width:"323px", backgroundColor:"white", marginLeft:"37px", height:"42px", color: "black", border: "1px solid white",  "&:hover": {border: "1px solid white", backgroundColor:"white" }}}
+          > Dine-In</Button></a>
+
+<a href="/home"><Button  variant="contained"
+          align="center"
+          color="secondary"
+          sx={{ marginTop: "20px" ,width:"323px", backgroundColor:"#771414", marginLeft:"37px", height:"42px", "&:hover": {backgroundColor: "#771414" }}}
+          > Delivery</Button></a>
+          </div>
+
     </div>
   );
 }
