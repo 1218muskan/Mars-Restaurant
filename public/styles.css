@@ -461,6 +461,48 @@ body{
     margin-right: auto;
 }
 
+/* MENU on home page */
+.card-main {
+    /* margin: 3rem 3rem 0 3rem; */
+    width: 418px !important;
+    height: 367px !important;
+  }
+
+  .card {
+    width: 418px !important;
+    height: 367px !important;
+    border-radius: 18px;
+  }
+
+  .cardFront {
+    background-size: cover;
+  }
+
+  .cardFront h3 {
+    color: var(--title);
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .cardBack {
+    padding: 25px;
+  }
+
+  .cardBack p {
+    /* font-size: x-small; */
+    text-align: justify;
+    text-overflow: clip;
+    font-family: Montserrat;
+    color: #212121;
+  }
+
+  .cardFront:nth-child(1){
+    background-image: url(./Images/Frame.png);
+  }
+
+  .cardFront:nth-child(2){
+    background-image: url(./Images/Frame.png);
+  }
+
 /* Mic Button */
 
 .chatbot-mic {
